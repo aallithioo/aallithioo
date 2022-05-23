@@ -1,24 +1,24 @@
 ```typescript
-const andre = {
-    fullName: "Andre Christi Kan",
+const aallithioo = {
+    fullName: "Thio Alli",
     pronouns: "he" | "him",
-    code: [Typescript, Javascript, Python, Dart],
-    framework: [ NestJs, ExpressJs, Jest, Flask, Flutter],
+    code: [Typescript, Javascript, Python, Dart, Shell, Pascal],
+    framework: [ NestJs, Flutter],
     askMeAbout: [
         "ci/cd", "automation", 
         "test", "nestjs", "nodejs",
         "relational database", "non relational database",
         "optimize code", "web security", 
         "concurrency", "cloud server", 
-        "backend development", "api", "microservice", 
+        "backend development", "api", 
         "etc"
     ],
     technologies: {
         backEnd: {
             ts: [
                 "nodejs", "expressjs"
-                "nestjs", "jest",
-                "jwt", "mongoose",
+                "nestjs", "jwt",
+                "mongoose",
             ],
             db: [
                 "mongodb", "postgresql", 
@@ -31,41 +31,32 @@ const andre = {
         },
         devOps: {
             automation: [
-                "jenkins", "github_action",
-                "docker", "docker_compose",
-                "docker_swarm"
-            ],
-            cloud: [
-                "aws", "alibaba_cloud"
+                "github_action", "docker",
+                "docker_compose",
             ],
             server: [
-                "nginx", "kafka", "certbot",
-                "letsencrypt", "ubuntu", "centos",
-                "amazon linux"
+                "nginx", "certbot",
+                "letsencrypt", "ubuntu",
+                "centos", "red hat"
             ],
         },
         mobile: {
             flutter: [
                 "widget"
             ],
+            state management: [
+                "provider", "getx", "bloc"
+            ]
         },
         integration: {
             email: [
                 "sendgrid", 
             ],
-            payment: [
-                "xendit", "instamoney",
-                "nicepay"
-            ],
-            bank: [
-                "bca", "sinar_mas"
+            phone: [
+                "Twilio"
             ],
             pushNotification: [
                 "onesignal", "firebase"
-            ],
-            p2pRegulation: [
-                "fdc", "pusdafil", 
-                "pefindo", "izidata"
             ]
         }
     }
