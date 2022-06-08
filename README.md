@@ -6,23 +6,19 @@ const aallithioo = {
     framework: [ NestJs, Flutter],
     askMeAbout: [
         "ci/cd", "automation", 
-        "test", "nestjs", "nodejs",
-        "relational database", "non relational database",
-        "optimize code", "web security", 
-        "concurrency", "cloud server", 
-        "backend development", "api", 
-        "etc"
+        "test", "nestjs", "optimize code",
+        "web security", "concurrency", 
+        "cloud server", "backend development",
+        "api", "etc",
     ],
     technologies: {
         backEnd: {
             ts: [
-                "nodejs", "expressjs"
                 "nestjs", "jwt",
                 "mongoose",
             ],
             db: [
-                "mongodb", "postgresql", 
-                "mysql"
+                "mongodb",
             ],
             test: [
                 "unit_test", "integration_test",
